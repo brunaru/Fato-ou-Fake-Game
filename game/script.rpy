@@ -672,10 +672,10 @@ label ccena2:
 
     p"Mas acho melhor pesquisarmos em algum site confiável para termos certeza."
     l"É pra já! Pensando bem, há muitos mitos sobre a Covid-19 por aí. Por exemplo que o “Calor mata o vírus”, mas temperatura em 72 graus mata até a gente junto."
-    l"Também tem das mais absurdas: comer alho ajuda prevenir a Covid-19, se fosse assim ninguém pegaria..."
-    p"Nossa, é muita coisa louca, duro que tem pessoas que acreditam em tudo."
-    l"Sempre que ouvirmos boatos ou desconfiarmos de algo, principalmente por notícias ou conversas não confiáveis, devemos investigar para sabermos o que é verdade e o que é falso."
-    l"E essa dica serve para além da pandemia, serve para a nossa vida, mano. "
+    p"Também tem das mais absurdas: comer alho ajuda prevenir a Covid-19, se fosse assim ninguém pegaria..."
+    p"É muita informação sem base, duro que tem pessoas que acreditam em tudo."
+    l"É verdade, você está certo. Vou passar a pesquisar mais, principalmente notícias ou conversas não confiáveis, devemos investigar para sabermos o que é verdade e o que é falso."
+    p"E essa dica serve para além da pandemia, serve para a nossa vida, mano."
 
     scene black
     centered "Alguns momentos depois..." with dissolve
