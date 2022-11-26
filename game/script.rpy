@@ -488,8 +488,9 @@ label quarto:
             yalign 0.65
 
     p"Oi Clara, é mesmo!"
-    p"Estou bem, e você como está?"
-    cl"Estou bem também, andei vendo suas redes sociais esses dias."
+    p"Estou bem, e você como está? Vai que dia para Portugal?"
+    cl"Estou bem também, vou na próxima segunda! Por conta da viagem até voltei a usar redes sociais."
+    cl"Inclusive, vi seu Facelook esses dias."
     p"Eita, tinha algo ruim?"
 
     if compart == "1":
@@ -501,7 +502,7 @@ label quarto:
         cl"Você precisa levar isso mais a sério, você tem noção que fazem isso com fins políticos?"
         jump contMiniJogo
     else: #Caso não tenha compartilhado notícia falsa:
-        cl"Ainda bem que você não compartilhou nenhuma fake news, meu Facelook está bizarro."
+        cl"Não. Ainda bem que você não compartilhou nenhuma fake news, meu Facelook está bizarro."
         p"Pois é, as pessoas acreditam em qualquer coisa ultimamente."
         cl"Sabe que atualmente muitas dessas notícias falsas possuem fins políticos né?"
         jump contMiniJogo
@@ -601,7 +602,7 @@ centered "Boatos.org: www.boatos.org/ \n\n Lupa: piaui.folha.uol.com.br/lupa/" w
 
 centered "Fim Capítulo 1" with dissolve
 
-centered "Referências Bibliográficas: \n\n GRINBERG, Nir et al. Fake news on Twitter during the 2016 US presidential election. Science, v. 363, n. 6425, p. 374-378, 2019. \n \n DA SILVA GOMES, Wilson; DOURADO, Tatiana. Fake news, um fenômeno de comunicação política entre jornalismo, política e democracia. Estudos em Jornalismo e Mídia, v. 16, n. 2, p. 33-45, 2019. \n \n VAN DER LINDEN, Sander; PANAGOPOULOS, Costas; ROOZENBEEK, Jon. You are fake news: political bias in perceptions of fake news. Media, Culture & Society, v. 42, n. 3, p. 460-470, 2020. \n \n FARHALL, Kate et al. Political elites' use of fake news discourse across communications platforms. International Journal of Communication, v. 13, p. 23, 2019."
+centered "Referências Bibliográficas: \n \n DA SILVA GOMES, Wilson; DOURADO, Tatiana. Fake news, um fenômeno de comunicação política entre jornalismo, política e democracia. Estudos em Jornalismo e Mídia, v. 16, n. 2, p. 33-45, 2019. \n \n VAN DER LINDEN, Sander; PANAGOPOULOS, Costas; ROOZENBEEK, Jon. You are fake news: political bias in perceptions of fake news. Media, Culture & Society, v. 42, n. 3, p. 460-470, 2020. \n \n FARHALL, Kate et al. Political elites' use of fake news discourse across communications platforms. International Journal of Communication, v. 13, p. 23, 2019."
 
 centered "“As convicções são inimigas mais perigosas da verdade do que a mentira.“ - Friedrich Nietzsche"
 
@@ -610,6 +611,8 @@ label startCap2:
     centered "Capítulo 2" with dissolve
     scene black
     centered "Se você encontrar um caminho sem obstáculos, ele provavelmente não leva a lugar nenhum. - Frank A. Clark"
+
+    centered "A pandemia de Covid-19 chega ao Brasil, muitas pessoas estão trabalhando em casa, escolas estão fechadas."
 
     play music "audio/cena1.mp3"
     scene rua2
@@ -638,7 +641,7 @@ label startCap2:
         "Não cobrar medidas de segurança":
             #adicionar 10 pontos na variável.
             p"Ah, você que sabe, por mim está tudo bem, somos só nós dois mesmo, sem aglomeração. Pode chegar em casa à noite, sem problemas."
-            l"Pode deixar, à noite estarei aí."
+            l"Acho que vou de máscara por causa dos seus pais. À noite estarei aí."
             p"Mal posso esperar."
             jump ccena1
 
@@ -881,22 +884,22 @@ label cenaIrmao:
         yalign 0.65
     p"Quem?"
     mae"O Alex, aquele menino que estuda Computação."
-    p"Vou lá, saudades dele!"
+    p"Vou lá receber ele!"
     scene black
     centered "Chegando lá..." with dissolve
 
     scene porta:
         zoom 1.5
-    show persmask at right with dissolve:
+    show persMask at right with dissolve:
             zoom 0.4
             yalign 0.65
     show alex at left with pixellate:
         zoom 0.4
         yalign 0.65
     menu:
-        "E aí mano, quanto tempo.":
+        "E aí mano, há quanto tempo!":
             jump cirmao2
-        "Salve cara, senti sua falta,":
+        "Salve cara, senti sua falta.":
             jump cirmao2
 label cirmao2:
 
@@ -905,7 +908,7 @@ label cirmao2:
     a"Nossa, é muito massa, já até zerei ele! Agora estou esperando lançar aquele novo jogo de corrida..."
     p"Eu também, vai ser muito legal."
     p"Essas semanas estava vendo no Facelook da Clara, ela está aproveitando demais Portugal, tirou várias fotos maneiras lá."
-    a"Você não vai acreditar, vi ela esses dias aqui na cidade, ela já voltou, porém vai ficar só alguns dias."
+    a"Você não vai acreditar, vi ela esses dias aqui na cidade, ela veio para o aniversário da avó, porém vai ficar só alguns dias."
     menu:
         "Será que a gente consegue dar um rolê?":
             jump cirmao3
@@ -1082,7 +1085,7 @@ label cirmao5:
     hide not4_bolha
     scene porta:
         zoom 1.5
-    show persmask at right with dissolve:
+    show persMask at right with dissolve:
             zoom 0.4
             yalign 0.65
     show alex at left with pixellate:
@@ -1105,7 +1108,7 @@ label cirmao5:
     scene black
     centered "Fim capítulo 2" with dissolve
 
-    centered "Referências Bibliográficas: \n\n O que é a Lei Geral de Proteção de Dados Pessoais?: https://www.serpro.gov.br/lgpd/menu/a-lgpd/o-que-muda-com-a-lgpd \n \n LGPD nas redes sociais - saiba o que muda: https://www.comunique-se.com.br/blog/lgpd-nas-redes-sociais/ \n \n Caçadores de mitos sobre COVID-19: https://www.paho.org/pt/cacadores-mitos-sobre-covid-19"
+    centered "Referências Bibliográficas: \n\n GRINBERG, Nir et al. Fake news on Twitter during the 2016 US presidential election. Science, v. 363, n. 6425, p. 374-378, 2019. \n\n O que é a Lei Geral de Proteção de Dados Pessoais?: https://www.serpro.gov.br/lgpd/menu/a-lgpd/o-que-muda-com-a-lgpd \n \n LGPD nas redes sociais - saiba o que muda: https://www.comunique-se.com.br/blog/lgpd-nas-redes-sociais/ \n \n Caçadores de mitos sobre COVID-19: https://www.paho.org/pt/cacadores-mitos-sobre-covid-19"
 
     centered "“As convicções são inimigas mais perigosas da verdade do que as mentiras.” - Friedrich Nietzsche" with pixellate
 return
