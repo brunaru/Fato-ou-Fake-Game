@@ -321,7 +321,7 @@ label quarto:
              p"Já fui lá algumas vezes."
         #    p"Cheio de coisas sem sentido, e olha essa fonte!"
         "Não conheço, mas já ouvi falar.":
-            p"Minha vizinhança costuma frequentar esse luga.r"
+            p"Minha vizinhança costuma frequentar esse lugar."
         #    p"Preciso comprar esses medicamentos, assim estarei completamente seguro!"
 
     c"Então, acredito que o senhor já saiba dos boatos que estão rondando por aí, certo?"
@@ -921,7 +921,7 @@ label cirmao3:
     p"Meu irmão falou um pouco sobre isso, mas como assim impulsionam notícias falsas?"
     a"Já ouviu falar do MIT? Uma das mais importantes universidades dos Estados Unidos?"
     a"Pesquisadores de lá descobriram que fake news se espalham 6 vezes mais rápido que notícias verdadeiras. E no caso de fake news sobre política, essas se espalham ainda mais rápido!"
-    a"No Twister, por exemplo, eles perceberam que uma notícia falsa tem uma chance 70 porcentagem maior de ser compartilhada."
+    a"No Twister, por exemplo, eles perceberam que uma notícia falsa tem uma chance 70 porcento maior de ser compartilhada."
     p"Mas como assim? Por que isso acontece?!"
     a"Porque além de gerar mais engajamento, por serem sensacionalistas, essas notícias são espalhadas dentro da bolha das pessoas, o que aumenta a chance de compartilharem."
     a"Nas redes sociais a gente visualiza as postagens de pessoas que têm interesses em comum ou pensam igual a gente. É o que a gente chama de algoritmo 'filtro bolha'."
