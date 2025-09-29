@@ -12,4 +12,7 @@ https://drive.google.com/file/d/1uF-JtaoygbcRry_AXzOihGSn34He6JhT/view?usp=shari
 Para instalar, você precisa permitir a instalação de apps fora da playstore.
 
 O questionário de avaliação utilizado em nossa pesquisa pode ser acessado em: https://forms.gle/vzebrmYT8rB1zzdk9
+
+Dados brutos anonimizados da nossa avaliação estão disponíveis em: https://docs.google.com/spreadsheets/d/1ezg7-3906dIyhK5Vd5xjfYfUc_UXF-YP
+
 Sinta-se à vontade para replicar a pesquisa.
